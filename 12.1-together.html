@@ -1,0 +1,26 @@
+<!-- Victoria Maraboto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Together</title>
+    <link rel="stylesheet" href="12.1-together.css"> <!-- Links stylesheet to html file -->
+</head>
+<body>
+    <!-- Link to return to assigments page -->
+    <a href="./final.html">Back to Assigments</a><br>
+    <h1>Calculator</h1> <!-- Page Header -->
+    <p>Please insert to numbers:</p> <!-- Instructions -->
+    <p id="warning">(Keep in mind the order in which you inser the numbers.)</p> <!-- Warning of order of operations -->
+    <input type="number" id="num1" placeholder="Enter first number" required><br> <!-- First Number Input -->
+    <input type="number" id="num2" placeholder="Enter second number" required><br> <!-- Second Number Input -->
+    <p>Please select type of equation:</p> <!-- Operation Selection -->
+    <button type="button" onclick="add()">Addition</button> <!-- Addition Button -->
+    <button type="button" onclick="sub()">Substraction</button> <!-- Substraction Button -->
+    <button type="button" onclick="div()">Division</button> <!-- Division Button -->
+    <button type="button" onclick="mul()">Multiplication</button> <!-- Multiplication Button -->
+    <p id="result"></p> <!-- Blank paragraph with id for modification purposes -->
+    <script src="12.1-together.js"></script> <!-- Link to javascript file -->
+</body>
+</html>

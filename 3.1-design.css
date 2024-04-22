@@ -1,0 +1,26 @@
+body { /* Changes the color of the background and aligns the content to the center */
+    background-color: rgb(213, 236, 254);
+    text-align: center;
+}
+
+h1 { /* Changes the color of h1 */
+    color: rgb(0, 9, 112);
+}
+
+p { /* Changes the color of p */
+    color: rgb(0, 9, 112);
+}
+
+img { /* Adjust the image properties to desired size */
+    width: 20%;
+    height: 20%;
+}
+
+button { /* Changes the color of the button and color of the text in the button, adds padding, gets rid of the border and adds rounded corners to make the button more appealing, and makes the cursor a pointer when hovering over button */
+    padding: 10px 15px;
+    background-color: rgb(106, 153, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

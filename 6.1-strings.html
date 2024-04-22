@@ -1,0 +1,28 @@
+<!-- Victoria Maraboto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+    <link rel="stylesheet" href="6.1-strings.css"> <!-- Link to css -->
+    <script src="6.1-strings.js"></script> <!-- Link to js -->
+</head>
+<body>
+    <!-- Link to return to assigments page -->
+    <a href="./final.html">Back to Assigments</a><br>
+    <h1>Fill out form to unlock secret message.</h1> <!-- Header with instruction -->
+    <form id="secretForm" onsubmit="validateForm()"> <!-- Form containing all necessary elements -->
+        <label for="firstName">First Name:</label> <!-- Label for first name -->
+        <input type="text" id="firstName" name="firstName" required><br><br> <!-- Input box for first name -->
+
+        <label for="lastName">Last Name:</label> <!-- Label for last name -->
+        <input type="text" id="lastName" name="lastName" required><br><br> <!-- Input box for last name -->
+
+        <label for="zipCode">Zip Code:</label> <!-- Label for zip code -->
+        <input type="text" id="zipCode" name="zipCode" required><br><br> <!-- input box for zip code -->
+
+        <input type="submit" value="Submit" id="button"><br><br> <!-- Sumbit button -->
+    </form>
+</body>
+</html>

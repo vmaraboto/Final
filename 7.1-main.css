@@ -1,0 +1,38 @@
+body {
+    background-color: azure;
+    color: darkblue;
+}
+
+nav {
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-right: 200px;
+}
+
+#meme {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 0;
+    left: 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(106, 153, 255);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header {
+    text-align: center;
+}

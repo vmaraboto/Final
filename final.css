@@ -1,0 +1,9 @@
+body {
+    background-color: azure;
+    color: darkblue;
+    text-align: center;
+}
+
+nav :hover{
+    color: darkblue;
+}
